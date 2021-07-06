@@ -4,11 +4,12 @@ header{
 
 body{
     font-family: 'Montserrat', sans-serif;
-    padding-left: 275px;
+    padding-left: 260px;
     /*background-image: url('https://image.freepik.com/foto-gratis/plantilla-papeleo-blanco-disenadores-maqueta-diseno-reactivo-fondo-madera-vendimia-papel-membrete-taza-cafe-smartphone-lapiz-auriculares-sobre-fondo-madera-mesa-vista-superior_1205-1639.jpg');
 
     background-image: url('https://image.freepik.com/foto-gratis/imagen-primer-plano-programador-trabajando-su-escritorio-oficina_1098-18707.jpg');*/
 }
+
 
 .encabezado {
 background-image: url('https://image.freepik.com/foto-gratis/imagen-primer-plano-programador-trabajando-su-escritorio-oficina_1098-18707.jpg');
@@ -54,6 +55,11 @@ height: 700px;
 
 }
 
+#principal2{
+    background-color: #e5e5e5;
+    height: 300px;
+    }
+
 .cuadro {
     display: flex;
     flex-direction: column;
@@ -67,6 +73,15 @@ height: 700px;
     align-items: center;
     justify-content: center;
     background-color: teal;
+}
+
+.cuadro3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin-top: 30px;
 }
 
 .vertical-header {
@@ -115,6 +130,11 @@ height: 700px;
     min-height: 40px;
 }
 
+.primary-menu-contact{
+margin-right: 29px;
+
+}
+
 .primary-menu {
     margin-top: 30px;
 }
@@ -135,6 +155,7 @@ height: 700px;
     list-style: none;
     color: white;
 }
+
 
 .primary-menu li a {
     display: block;
@@ -165,10 +186,15 @@ margin-top: 20px;
     padding: 10px;
 }
 
+.menu-social-contact{
+    justify-content: center;
+}
+
 .tituloPrin{
     font-size: 25px;
     color: white;
 }
+
 
 .separador {
     background-color: #e5e5e5;
@@ -189,4 +215,15 @@ margin-top: 20px;
 
 .txtPerfil {
 text-align:center;
+}
+
+.headerForm {
+    color: black;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #fca311;
 }
